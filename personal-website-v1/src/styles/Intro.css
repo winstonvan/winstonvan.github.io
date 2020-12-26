@@ -1,3 +1,11 @@
+.intro {
+  padding: 0% 15% 5% 15%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .intro__title {
   font-size: 40px;
 }
@@ -8,7 +16,7 @@
 }
 
 .intro__content .name {
-  color: #ef476f;
+  color: #e9c46a;
   font-weight: 500;
 }
 
@@ -17,12 +25,17 @@
 }
 
 .intro__contact .email {
-  font-weight: 400;
+  font-weight: 600;
   display: inline-block;
-  border-bottom: 4px solid #ef476f;
+  border-bottom: 4px solid #e9c46a;
   padding-bottom: 2px;
 }
 
 .intro__contact .email:hover {
-  background-color: #06d6a0;
+  background-color: #2a9d8f;
+}
+
+.intro__contact a {
+  color: #ffffff;
+  line-height: 2;
 }

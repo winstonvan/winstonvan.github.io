@@ -1,16 +1,8 @@
 html {
-  padding: 5% 15% 5% 15%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 0;
   max-width: 1440px;
   font-weight: 300;
   font-family: Apercu, "Source Sans Pro", system, system-ui, -apple-system,
     BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-}
-
-a {
-  color: #444452;
-  line-height: 1.5;
+  background-color: #264653;
+  color: #ffffff;
 }
