@@ -2,6 +2,42 @@
   padding: 0% 15% 5% 15%;
   height: 100vh;
   display: flex;
+  flex-direction: row;
+}
+
+.experiences {
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+}
+
+.experience__company__year {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experience__item {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+}
+
+.experience__header {
+  font-weight: 700;
+  color: #e9c46a;
+  padding-right: 10%;
+}
+
+.experience__company {
+  font-weight: 500;
+}
+
+.experience__position {
+  font-style: italic;
+}
+
+.experience__company__year {
+  font-size: 15px;
+  font-family: Inconsolata, monospace;
 }
