@@ -11,7 +11,7 @@ function Projects() {
             <div className="content">
                 <div className="project">
                     <span className="mockup">
-                        <img src="%PUBLIC_URL%/mockup.png" alt=""/>    
+                        <img src="mockup.png" alt=""/>    
                     </span>
                     <span className="project__name">
                         <a href="https://winstonvan.github.com">winstonvan.github.io</a>
@@ -35,9 +35,9 @@ function Projects() {
 
                 <div className="project">
                 <   span className="mockup">
-                        <img src="%PUBLIC_URL%/inform/home.png" width ="33%" alt=""/>
-                        <img src="%PUBLIC_URL%/inform/test.png" width ="33%" alt=""/> 
-                        <img src="%PUBLIC_URL%/inform/test2.png" width ="33%" alt=""/>     
+                        <img src="inform/home.png" width ="33%" alt=""/>
+                        <img src="inform/test.png" width ="33%" alt=""/> 
+                        <img src="inform/test2.png" width ="33%" alt=""/>     
                     </span>
                     <span className="project__name">
                     <a href="https://github.com/winstonvan/Inform">Inform</a>
