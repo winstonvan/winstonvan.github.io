@@ -32,7 +32,7 @@ function Skills() {
                             <li className="item">Firebase</li>
                             <li className="item">Wordpress</li>
                         </ul>
-                    </div>
+                        </div>
                     <div className="skills__category">
                         <div className="skills__header">
                             TOOLS

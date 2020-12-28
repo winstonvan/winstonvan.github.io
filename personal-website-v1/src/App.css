@@ -61,7 +61,7 @@ html {
 section {
   display: flex;
   justify-content: left;
-  padding: 100px 170px;
+  padding: 40px 170px;
 }
 
 @media screen and (max-width: 1280px) {
@@ -72,7 +72,7 @@ section {
 
 @media screen and (max-width: 1024px) {
   section {
-    padding: 50px;
+    padding: 40px;
   }
 }
 

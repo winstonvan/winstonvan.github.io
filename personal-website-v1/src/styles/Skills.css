@@ -1,12 +1,12 @@
-@media screen and (max-width: 630px) {
-  .skills {
+@media screen and (max-width: 420px) {
+  .skills .skill {
     flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 630px) {
   .skills .skills__category {
-    margin-right: 25px;
+    margin-right: 50px;
     margin-bottom: 25px;
   }
 }
