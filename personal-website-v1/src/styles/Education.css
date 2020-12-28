@@ -1,0 +1,27 @@
+.education__institution__year {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.education__item {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.education__institution {
+  font-weight: 500;
+}
+
+.education__degree {
+  font-style: italic;
+}
+
+.education__institution__year {
+  font-family: Inconsolata, monospace;
+}
+
+.education__year {
+  font-size: 15px;
+}

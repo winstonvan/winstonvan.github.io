@@ -3,7 +3,7 @@ import "../styles/Intro.css"
 
 function Intro() {
     return (
-        <div className="intro">
+        <section className="intro">
             
             <p className="intro__title">
                 Hello!
@@ -17,7 +17,7 @@ function Intro() {
                 Get in touch with me: <a href="mailto:winston-van@mail.com" className="link"><span className="email">winston-van@mail.com</span></a>
             </p>
 
-        </div>
+        </section>
     )
 }
 

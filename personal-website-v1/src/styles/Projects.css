@@ -1,0 +1,26 @@
+.projects__content {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+}
+
+.project__name {
+  font-weight: 500;
+  font-family: Inconsolata, monospace;
+}
+
+.project__description {
+  margin-bottom: 2%;
+  display: block;
+}
+
+.project__languages {
+  display: inline;
+  font-size: 12px;
+  font-family: Inconsolata, monospace;
+  border: 2px solid;
+  border-radius: 3px;
+  padding: 0.5% 1% 0.5% 1%;
+  color: #e9c46a;
+  margin-right: 5px;
+}

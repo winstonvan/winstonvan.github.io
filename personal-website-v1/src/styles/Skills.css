@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+}
+
+.languages,
+.frameworks,
+.tools {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+}
+
+.languages__header,
+.frameworks__header,
+.tools__header {
+  font-weight: 700;
+  border-bottom: 4px solid #e9c46a;
+  padding-bottom: 3px;
+}
+
+.item {
+  margin-bottom: 2px;
+}
