@@ -79,6 +79,12 @@
   }
 }
 
+@media screen and (max-width: 430px) {
+  .socials {
+    padding-top: 8px;
+  }
+}
+
 .intro__content {
   max-width: 600px;
 }
@@ -106,11 +112,12 @@
   flex-direction: column;
 }
 
-.intro__content, .intro__contact {
+.intro__content,
+.intro__contact {
   font-weight: 300;
 }
 
-.socials{
+.socials {
   display: flex;
   flex-direction: row;
 }
