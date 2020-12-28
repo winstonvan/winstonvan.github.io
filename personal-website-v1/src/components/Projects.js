@@ -1,5 +1,6 @@
 import React from 'react'
 import "../styles/Projects.css"
+import "../styles/fontawesome/css/all.css"
 
 function Projects() {
     return (
@@ -18,7 +19,12 @@ function Projects() {
                             </figure> 
                         </div>
                     <div className="project__name">
-                        <a href="https://winstonvan.github.com">winstonvan.github.io</a>
+                        <a href="https://winstonvan.github.com" target="_blank" rel="noreferrer">
+                            winstonvan.github.io
+                            <span className="arrow">
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
                     </div>
                     <div className="project__description">
                     A responsive and mobile-friendly portfolio website created using React JS.  
@@ -31,9 +37,6 @@ function Projects() {
                     </div>
                     <div className="project__languages">
                         HTML
-                    </div>
-                    <div className="demo">
-                        
                     </div>
                 </div>
 
@@ -52,7 +55,12 @@ function Projects() {
                         </figure> 
                     </div>
                     <div className="project__name">
-                    <a href="https://github.com/winstonvan/Inform">Inform</a>
+                    <a href="https://github.com/winstonvan/Inform" target="_blank" rel="noreferrer">
+                        Inform
+                        <span className="arrow">
+                                <i class="fas fa-chevron-right"></i>
+                        </span>    
+                    </a>
                     </div>
                     <div className="project__description">
                     Internet Gaming Disorder Assessment Tool. This tool is based on the first standardized 
@@ -72,7 +80,12 @@ function Projects() {
 
                 <div className="project">
                     <div className="project__name">
-                        <a href="https://github.com/winstonvan/Studium">Studium</a>
+                        <a href="https://github.com/winstonvan/Studium" target="_blank" rel="noreferrer">
+                            Studium
+                            <span className="arrow">
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
                     </div>
                     <div className="project__description">
                     Studium is a virtual tutoring application written in Java for Android. 
@@ -103,7 +116,12 @@ function Projects() {
 
                 <div className="project">
                     <div className="project__name">
-                        <a href="https://github.com/winstonvan/ExpertProject1">Medical Expert System</a>
+                        <a href="https://github.com/winstonvan/ExpertProject1" target="_blank" rel="noreferrer">
+                            Medical Expert System
+                            <span className="arrow">
+                                <i class="fas fa-chevron-right"></i>
+                            </span>    
+                        </a>
                     </div>
                     <div className="project__description">
                     This expert system was developed for a fourth year expert systems class. <br />

@@ -2,7 +2,6 @@ import React from 'react'
 import "../styles/Intro.css"
 import "../styles/fontawesome/css/all.css"
 
-
 function Intro() {
     return (
         <section className="intro">
