@@ -18,7 +18,6 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-family: Inconsolata, monospace;
 }
 
 .experience__item {
@@ -26,7 +25,6 @@
 }
 
 .experience__company {
-  font-family: Inconsolata, monospace;
   font-weight: 700;
 }
 
@@ -36,4 +34,5 @@
 
 .experience__year {
   font-size: 15px;
+  font-family: Inconsolata, monospace;
 }

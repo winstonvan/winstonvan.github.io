@@ -21,6 +21,7 @@ function Skills() {
                             <li className="item">Javascript</li>
                             <li className="item">CSS</li>
                             <li className="item">HTML</li>
+                            <li className="item">PHP</li>
                         </ul>
                     </div>                   
                     <div className="skills__category">
@@ -29,6 +30,7 @@ function Skills() {
                         </div>
                         <ul className="items">
                             <li className="item">React</li>
+                            <li className="item">SQL</li>
                             <li className="item">Firebase</li>
                             <li className="item">Wordpress</li>
                         </ul>
@@ -41,7 +43,17 @@ function Skills() {
                             <li className="item">Git</li>
                             <li className="item">Github</li>
                             <li className="item">Bash</li>
-                            <li className="item">Photoshop</li>
+                            <li className="item">Chrome DevTools</li>
+                        </ul>
+                    </div>
+                    <div className="skills__category">
+                        <div className="skills__header">
+                            Design
+                        </div>
+                        <ul className="items">
+                        <li className="item">Photoshop</li>
+                        <li className="item">Prototyping</li>
+                        <li className="item">Wireframing</li>
                         </ul>
                     </div>
                 </div>

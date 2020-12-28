@@ -4,12 +4,16 @@
 }
 
 .project {
-  margin-bottom: 35px;
+  margin-bottom: 100px;
+}
+
+.project .mockup {
+  display: flex;
+  max-width: 700px;
 }
 
 .project__name {
   font-weight: 700;
-  font-family: Inconsolata, monospace;
 }
 
 .project__description {
@@ -21,9 +25,23 @@
   display: inline;
   font-size: 12px;
   font-family: Inconsolata, monospace;
-  border: 2px solid;
+  border: 1.5px solid;
   border-radius: 3px;
   padding: 0.5% 1% 0.5% 1%;
   color: #e9c46a;
   margin-right: 5px;
+}
+
+.projects .features {
+  list-style-type: none;
+  padding-top: 0;
+}
+
+.projects .features .item:before {
+  content: "• "; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #e9c46a; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
 }

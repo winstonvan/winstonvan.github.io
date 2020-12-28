@@ -11,7 +11,7 @@ function Projects() {
             <div className="content">
                 <div className="project">
                     <span className="mockup">
-                        <img src="mockup.png" />    
+                        <img src="mockup.png" alt=""/>    
                     </span>
                     <span className="project__name">
                         <a href="https://winstonvan.github.com">winstonvan.github.io</a>
@@ -28,14 +28,19 @@ function Projects() {
                     <span className="project__languages">
                         HTML
                     </span>
+                    <span className="demo">
+                        
+                    </span>
                 </div>
 
                 <div className="project">
-                <span className="mockup">
-                        <img src="Inform/test.png" />    
+                <   span className="mockup">
+                        <img src="inform/home.png" width ="33%" alt=""/>
+                        <img src="inform/test.png" width ="33%" alt=""/> 
+                        <img src="inform/test2.png" width ="33%" alt=""/>     
                     </span>
                     <span className="project__name">
-                        Inform
+                    <a href="https://github.com/winstonvan/Inform">Inform</a>
                     </span>
                     <span className="project__description">
                     Internet Gaming Disorder Assessment Tool. This tool is based on the first standardized 
@@ -52,6 +57,51 @@ function Projects() {
                         Firebase
                     </span>
                 </div>
+
+                <div className="project">
+                    <span className="project__name">
+                        <a href="https://github.com/winstonvan/Studium">Studium</a>
+                    </span>
+                    <span className="project__description">
+                    Studium is a virtual tutoring application written in Java for Android. 
+                    It is designed to assist and enhance learning at the user's convenience. 
+                    Uses a combination of PHP and mySQL to store data. <br /><br />
+
+                    Features:
+                    <ul className="features">
+                        <li className="item">Question search</li>
+                        <li className="item">Submit question</li>
+                        <li className="item">Answer to other user's questions</li>
+                        <li className="item">Chat (1:1)</li>
+                    </ul>
+                    </span>
+                    <span className="project__languages">
+                        Java
+                    </span>
+                    <span className="project__languages">
+                        Android
+                    </span>
+                    <span className="project__languages">
+                        PHP
+                    </span>
+                    <span className="project__languages">
+                        SQL
+                    </span>
+                </div>
+
+                <div className="project">
+                    <span className="project__name">
+                        <a href="https://github.com/winstonvan/ExpertProject1">Medical Expert System</a>
+                    </span>
+                    <span className="project__description">
+                    This expert system was developed for a fourth year expert systems class. <br />
+                    A forward-chaining inference engine was used to infer data from a knowledge base.
+                    </span>
+                    <span className="project__languages">
+                        C#
+                    </span>
+                </div>
+
             </div>
         </section>
     )

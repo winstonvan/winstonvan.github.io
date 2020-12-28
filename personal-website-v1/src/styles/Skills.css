@@ -16,7 +16,7 @@
 .skills .skills__header {
   font-weight: 700;
   color: #ffffff;
-  font-family: Inconsolata, monospace;
+  text-transform: uppercase;
 }
 
 .skills ul {
