@@ -12,7 +12,7 @@ function Skills() {
                 <div className="skill">
                 <div className="skills__category">
                         <div className="skills__header">
-                            LANGUAGES
+                            Languages
                         </div>
                         <ul className="items">
                             <li className="item">Java</li>
@@ -25,7 +25,7 @@ function Skills() {
                     </div>                   
                     <div className="skills__category">
                         <div className="skills__header">
-                            FRAMEWORKS
+                            Frameworks
                         </div>
                         <ul className="items">
                             <li className="item">React</li>
@@ -35,12 +35,13 @@ function Skills() {
                         </div>
                     <div className="skills__category">
                         <div className="skills__header">
-                            TOOLS
+                            Tools
                         </div>
                         <ul className="items">
                             <li className="item">Git</li>
                             <li className="item">Github</li>
                             <li className="item">Bash</li>
+                            <li className="item">Photoshop</li>
                         </ul>
                     </div>
                 </div>

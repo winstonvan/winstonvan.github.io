@@ -10,11 +10,14 @@ function Projects() {
 
             <div className="content">
                 <div className="project">
+                    <span className="mockup">
+                        <img src="mockup.png" />    
+                    </span>
                     <span className="project__name">
-                        winstonvan.github.io
+                        <a href="https://winstonvan.github.com">winstonvan.github.io</a>
                     </span>
                     <span className="project__description">
-                    My personal portfolio.
+                    A responsive and mobile-friendly portfolio website created using React JS.  
                     </span>
                     <span className="project__languages">
                         React
@@ -28,6 +31,9 @@ function Projects() {
                 </div>
 
                 <div className="project">
+                <span className="mockup">
+                        <img src="Inform/test.png" />    
+                    </span>
                     <span className="project__name">
                         Inform
                     </span>

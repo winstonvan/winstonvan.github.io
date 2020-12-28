@@ -26,7 +26,8 @@
 }
 
 .experience__company {
-  font-weight: 500;
+  font-family: Inconsolata, monospace;
+  font-weight: 700;
 }
 
 .experience__position {
