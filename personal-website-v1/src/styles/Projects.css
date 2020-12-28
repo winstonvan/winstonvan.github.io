@@ -7,9 +7,16 @@
   margin-bottom: 100px;
 }
 
-.project .mockup {
+.project .project__images {
+  margin: 0;
   display: flex;
-  max-width: 700px;
+  justify-content: space-between;
+}
+
+.project .project__images img {
+  width: 80%;
+  max-width: 80%;
+  height: auto;
 }
 
 .project__name {
