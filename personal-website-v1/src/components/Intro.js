@@ -5,17 +5,17 @@ function Intro() {
     return (
         <section className="intro">
             
-            <p className="intro__title">
+            <span className="intro__title">
                 Hello!
-            </p>
+            </span>
 
-            <p className="intro__content">
+            <span className="intro__content">
                 I'm <span className="name">Winston Van</span>, a web developer and UX enthusiast focused on creating clean and beautiful interfaces.
-            </p>
+            </span>
 
-            <p className="intro__contact">
-                Get in touch with me: <a href="mailto:winston-van@mail.com" className="link"><span className="email">winston-van@mail.com</span></a>
-            </p>
+            <span className="intro__contact">
+                Get in touch with me: <a href="mailto:winston-van@mail.com" className="link">winston-van@mail.com</a>
+            </span>
 
         </section>
     )

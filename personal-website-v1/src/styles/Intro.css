@@ -1,75 +1,81 @@
 /* SECTION PADDING */
 
 .intro {
-  padding: 0px 100px 100px;
+  padding: 120px 100px;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 630px) {
   .intro {
-    padding: 25px 0px 50px 50px;
+    padding: 120px 70px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .intro {
-    padding: 50px 0px 100px 50px;
+    padding: 120px 50px;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 480px) {
   .intro {
-    padding: 135px 0px 175px 70px;
+    padding: 70px 50px;
   }
 }
 
 /* CONTENT FONT SIZE */
+.intro__title {
+  font-weight: 300;
+}
+
 .intro__title,
 .intro__content {
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro__title,
+  .intro__content {
+    font-size: 2.25rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro__title,
   .intro__content {
-    font-size: 2.5rem;
-  }
-  .intro__contact {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
   .intro__title,
   .intro__content {
-    font-size: 2.5rem;
-  }
-  .intro__contact {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 360px) {
   .intro__title,
   .intro__content {
-    font-size: 2.25rem;
-  }
-  .intro__contact {
-    font-size: 1.15rem;
+    font-size: 1.5rem;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 330px) {
   .intro__title,
   .intro__content {
-    font-size: 2.5rem;
+    font-size: 1.4rem;
   }
+}
+
+@media screen and (max-width: 550px) {
   .intro__contact {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
@@ -84,20 +90,16 @@
 
 .intro__contact .link {
   text-decoration: none;
-}
-
-.intro__contact .email {
-  font-weight: 600;
+  font-weight: 400;
   display: inline-block;
-  border-bottom: 4px solid #e9c46a;
-  padding-bottom: 2px;
+  padding: 2px 3px;
+  box-shadow: inset 0 -3px 0 #e9c46a;
 }
 
-.intro__contact .email:hover {
-  background-color: #2a9d8f;
+.intro__contact .link:hover {
+  box-shadow: inset 0 -33px 0 0 #2a9d8f;
 }
 
 .intro__contact a {
-  color: #ffffff;
   line-height: 2;
 }

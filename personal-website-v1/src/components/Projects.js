@@ -3,12 +3,30 @@ import "../styles/Projects.css"
 
 function Projects() {
     return (
-        <section className="section">
+        <section className="projects">
             <div className="header">
                 PROJECTS
             </div>
 
             <div className="content">
+                <div className="project">
+                    <span className="project__name">
+                        winstonvan.github.io
+                    </span>
+                    <span className="project__description">
+                    My personal portfolio.
+                    </span>
+                    <span className="project__languages">
+                        React
+                    </span>
+                    <span className="project__languages">
+                        CSS
+                    </span>
+                    <span className="project__languages">
+                        HTML
+                    </span>
+                </div>
+
                 <div className="project">
                     <span className="project__name">
                         Inform

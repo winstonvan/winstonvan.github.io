@@ -1,7 +1,10 @@
-.projects__content {
+.projects .content {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10%;
+}
+
+.project {
+  margin-bottom: 35px;
 }
 
 .project__name {

@@ -3,7 +3,7 @@ import "../styles/Education.css"
 
 function Education() {
     return (
-        <section className="section">
+        <section className="education">
             <div className="header">
                 EDUCATION
             </div>
@@ -15,11 +15,11 @@ function Education() {
                             <a href="https://laurentian.ca/program/computer-science/details" target="_blank" rel="noopener noreferrer">Laurentian University</a>
                         </div>
                         <div className="education__year">
-                            September 2015 - May 2020
+                            
                         </div>  
                     </div>
                     <div className="education__degree">
-                        Computer Science: Specialization in Web Data Management (B.CoSc)
+                        Computer Science: Specialization in Web Data Management 
                     </div>
                 </div>          
             </div>

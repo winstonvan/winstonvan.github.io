@@ -3,7 +3,7 @@ import "../styles/Experience.css"
 
 function Experience() {
     return (
-        <section className="section">
+        <section className="experience">
             <div className="header">
                 EXPERIENCE
             </div>

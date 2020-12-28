@@ -3,66 +3,45 @@ import '../styles/Skills.css'
 
 function Skills() {
     return (
-        <section className="section">
+        <section className="skills">
             <div className="header">
                 SKILLS
             </div>
 
             <div className="content">
-                <div className="languages">
-                    <div className="languages__header">
-                        Languages
-                    </div> 
-                    <div className="item">
-                        Java
-                    </div>
-                    <div className="item">
-                        C#
-                    </div>
-                    <div className="item">
-                        C++
-                    </div>
-                    <div className="item">
-                        HTML
-                    </div>
-                    <div className="item">
-                        CSS
-                    </div>
-                    <div className="item">
-                        Javascript
+                <div className="skill">
+                <div className="skills__category">
+                        <div className="skills__header">
+                            LANGUAGES
+                        </div>
+                        <ul className="items">
+                            <li className="item">Java</li>
+                            <li className="item">C++</li>
+                            <li className="item">C#</li>
+                            <li className="item">Javascript</li>
+                            <li className="item">CSS</li>
+                            <li className="item">HTML</li>
+                        </ul>
                     </div>                   
-                </div>
-
-                <div className="frameworks">
-                    <div className="languages__header">
-                        Frameworks
-                    </div> 
-                    <div className="item">
-                        React
+                    <div className="skills__category">
+                        <div className="skills__header">
+                            FRAMEWORKS
+                        </div>
+                        <ul className="items">
+                            <li className="item">React</li>
+                            <li className="item">Firebase</li>
+                            <li className="item">Wordpress</li>
+                        </ul>
                     </div>
-                    <div className="item">
-                        Node.js
-                    </div>
-                    <div className="item">
-                        Firebase
-                    </div>
-                    <div className="item">
-                        Wordpress
-                    </div>
-                </div>
-
-                <div className="tools">
-                    <div className="tools__header">
-                        Tools
-                    </div> 
-                    <div className="item">
-                        Git
-                    </div>
-                    <div className="item">
-                        Github
-                    </div>
-                    <div className="item">
-                        Bash
+                    <div className="skills__category">
+                        <div className="skills__header">
+                            TOOLS
+                        </div>
+                        <ul className="items">
+                            <li className="item">Git</li>
+                            <li className="item">Github</li>
+                            <li className="item">Bash</li>
+                        </ul>
                     </div>
                 </div>
             </div>

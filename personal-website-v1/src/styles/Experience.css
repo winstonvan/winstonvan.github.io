@@ -1,3 +1,14 @@
+@media screen and (max-width: 480px) {
+  .experience__item .experience__company__year {
+    display: block;
+  }
+}
+
+.experience .content {
+  display: flex;
+  flex-direction: column;
+}
+
 .experiences {
   display: flex;
   flex-direction: column;
@@ -11,9 +22,6 @@
 }
 
 .experience__item {
-  width: 100vh;
-  display: flex;
-  flex-direction: column;
   padding-bottom: 35px;
 }
 
