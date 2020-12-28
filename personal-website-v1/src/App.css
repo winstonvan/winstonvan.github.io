@@ -127,9 +127,9 @@ a:hover {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
-  vertical-align: middle;
+  max-width: 700px;
+  overflow: visible;
+  margin: 0;
 }
 
 /* Fade transition */
