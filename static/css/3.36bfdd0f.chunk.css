@@ -1,0 +1,2 @@
+@media screen and (max-width:420px){.skills .skill{flex-wrap:wrap}}@media screen and (max-width:630px){.skills .skills__category{font-family:Inconsolata,monospace;width:50px;margin-right:50px;margin-bottom:25px}}.skills .skills__header{font-weight:700;color:#fff;text-transform:uppercase}.skills ul{list-style:none;padding:0;margin:0}.skills .item{margin:5px 0;font-size:.9rem}.skills .skill{display:flex;justify-content:space-between}.skill{display:flex;flex-direction:row}.item{margin-bottom:2px}
+/*# sourceMappingURL=3.36bfdd0f.chunk.css.map */
