@@ -1,18 +1,65 @@
 import './App.css';
-import Intro from './components/Intro'
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import Education from './components/Education';
-import Skills from './components/Skills';
+import React, { Suspense } from 'react'
 
+// lazy loading components
+const Intro = React.lazy(() => import ('./components/Intro'));
+const Experience = React.lazy(() => import ('./components/Experience'));
+const Projects = React.lazy(() => import ('./components/Projects'));
+const Education = React.lazy(() => import ('./components/Education'));
+const Skills = React.lazy(() => import ('./components/Skills'));
+
+// render components
 function App() {
   return (
     <div className="App">
-      <Intro />
-      <Skills />
-      <Experience />
-      <Education />
-      <Projects />
+      <FadeInSection>
+        <Suspense fallback={<div></div>}>
+          <Intro />
+        </Suspense>
+      </FadeInSection>
+
+      <FadeInSection>
+        <Suspense fallback={<div></div>}>
+          <Skills />
+        </Suspense>
+      </FadeInSection>
+
+      <FadeInSection>
+        <Suspense fallback={<div></div>}>
+          <Experience />
+        </Suspense>
+      </FadeInSection>
+
+      <FadeInSection>
+        <Suspense fallback={<div></div>}>
+          <Education />
+        </Suspense>
+      </FadeInSection>
+
+      <FadeInSection>
+        <Suspense fallback={<div></div>}>
+          <Projects />
+        </Suspense>
+      </FadeInSection>
+    </div>
+  );
+}
+
+// fade in transition
+function FadeInSection(props) {
+  const [isVisible, setVisible] = React.useState(false);
+  const domRef = React.useRef();
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => setVisible(entry.isIntersecting));
+    });
+    observer.observe(domRef.current);
+  }, []);
+  return (
+    <div
+      className={`fade-in-section ${isVisible ? 'is-visible' : ''}`}
+      ref={domRef}>
+      {props.children}
     </div>
   );
 }
