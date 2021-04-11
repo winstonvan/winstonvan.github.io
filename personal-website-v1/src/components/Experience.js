@@ -15,7 +15,7 @@ function Experience() {
                             Freelancer
                         </div>
                         <div className="experience__year">
-                            September 2020 - Present
+                            September 2019 - Present
                         </div>  
                     </div>
                     <div className="experience__position">

@@ -19,7 +19,7 @@ function Projects() {
             </div>
             <div className="project__name">
               <a
-                href="https://winstonvan.github.com"
+                href="https://winstonvan.github.io"
                 target="_blank"
                 rel="noreferrer"
               >
