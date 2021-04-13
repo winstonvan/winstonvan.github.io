@@ -60,3 +60,8 @@
   transition-timing-function: ease;
   color: #e9c46a;
 }
+
+.source {
+  color: #e9c46a;
+  font-weight: 600;
+}
