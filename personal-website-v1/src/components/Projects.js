@@ -41,6 +41,38 @@ function Projects() {
 
         <FadeInSection>
           <div className="project">
+            <div className="project__chat">
+              <figure className="project__images">
+                <div className="laptop">
+                  <img src={"chat-app/mockup.png"} alt="" />
+                </div>
+              </figure>
+            </div>
+            <div className="project__name">
+              <a
+                href="https://lit-shelf-68563.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                A Simple Chat App
+                <span className="arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+              </a>
+            </div>
+            <div className="project__description">
+              A responsive and mobile-friendly chat application built using
+              React.js and Firebase
+            </div>
+            <div className="project__languages">React</div>
+            <div className="project__languages">CSS</div>
+            <div className="project__languages">HTML</div>
+            <div className="project__languages">Firebase</div>
+          </div>
+        </FadeInSection>
+
+        <FadeInSection>
+          <div className="project">
             <div className="project__inform">
               <figure className="project__images">
                 <div className="phone">
