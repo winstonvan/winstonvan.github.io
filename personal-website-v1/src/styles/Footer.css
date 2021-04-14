@@ -1,0 +1,28 @@
+.footer {
+  margin-top: -100px;
+  margin-bottom: 10px;
+}
+
+.footer .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .item {
+  margin-bottom: 30px;
+  vertical-align: text-bottom;
+}
+
+.footer .logo {
+  height: 30px; 
+  width: 30px;
+  margin-right: 15px;
+  vertical-align: text-bottom;
+}
+
+.footer .link {
+  color: #e9c46a;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-left: 15px;
+}

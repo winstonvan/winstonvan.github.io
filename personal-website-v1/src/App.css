@@ -63,7 +63,7 @@ html {
 section {
   display: flex;
   justify-content: left;
-  padding: 50px 170px;
+  padding: 50px 100px;
 }
 
 @media screen and (max-width: 1280px) {

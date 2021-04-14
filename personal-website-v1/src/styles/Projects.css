@@ -64,4 +64,10 @@
 .source {
   color: #e9c46a;
   font-weight: 600;
+  display: block;
+}
+
+.source:hover {
+  background-color: unset !important;
+  color: #2a9d8f;
 }
