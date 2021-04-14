@@ -8,7 +8,7 @@ const Experience = React.lazy(() => import("./components/Experience"));
 const Projects = React.lazy(() => import("./components/Projects"));
 const Education = React.lazy(() => import("./components/Education"));
 const Skills = React.lazy(() => import("./components/Skills"));
-const Footer = React.lazy(() => import("./components/Footer"));
+const Contact = React.lazy(() => import("./components/Contact"));
 
 // render components
 function App() {
@@ -48,7 +48,7 @@ function App() {
 
       <FadeInSection>
         <Suspense fallback={<div></div>}>
-          <Footer />
+          <Contact />
         </Suspense>
       </FadeInSection>
     </div>

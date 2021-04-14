@@ -25,7 +25,7 @@ function Projects() {
               >
                 winstonvan.github.io
                 <span className="arrow">
-                  <i class="fas fa-chevron-right"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </span>
               </a>
             </div>
@@ -68,7 +68,7 @@ function Projects() {
               >
                 Inform
                 <span className="arrow">
-                  <i class="fas fa-chevron-right"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </span>
               </a>
             </div>
@@ -105,7 +105,7 @@ function Projects() {
               >
                 A Chat App
                 <span className="arrow">
-                  <i class="fas fa-chevron-right"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </span>
               </a>
             </div>
@@ -137,7 +137,7 @@ function Projects() {
               >
                 Studium
                 <span className="arrow">
-                  <i class="fas fa-chevron-right"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </span>
               </a>
             </div>
@@ -174,7 +174,7 @@ function Projects() {
               <a href="https://nxinc.ca/" target="_blank" rel="noreferrer">
                 NX Cabinets Inc.
                 <span className="arrow">
-                  <i class="fas fa-chevron-right"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </span>
               </a>
             </div>
@@ -200,7 +200,7 @@ function Projects() {
               >
                 The DIY Chief
                 <span className="arrow">
-                  <i class="fas fa-chevron-right"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </span>
               </a>
             </div>
@@ -224,7 +224,7 @@ function Projects() {
               >
                 Medical Expert System
                 <span className="arrow">
-                  <i class="fas fa-chevron-right"></i>
+                  <i class="fas fa-external-link-alt"></i>
                 </span>
               </a>
             </div>

@@ -5,9 +5,36 @@ import "../styles/fontawesome/css/all.css";
 function Sidebar() {
   return (
     <div className="sidebar">
-      <i class="fab fa-github fa-2x" />
-      <i class="fab fa-linkedin-in fa-2x" />
-      <i class="far fa-envelope fa-2x"></i>
+      <div className="icon">
+        <a
+          className="link"
+          href="https://www.linkedin.com/in/winstonvan/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fab fa-linkedin-in fa-2x" />
+        </a>
+      </div>
+      <div className="icon">
+        <a
+          className="link"
+          href="https://github.com/winstonvan"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="fab fa-github fa-2x" />
+        </a>
+      </div>
+      <div className="icon">
+        <a
+          className="link"
+          href="mailto:wvan@laurentian.ca"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <i class="far fa-envelope fa-2x" />
+        </a>
+      </div>
     </div>
   );
 }

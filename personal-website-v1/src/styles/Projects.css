@@ -2,6 +2,10 @@
   margin-bottom: 100px;
 }
 
+.project .project__name a:hover {
+  box-shadow: inset 0 -33px 0 0 #2a9d8f;
+}
+
 .project .project__images {
   margin: 0;
   display: flex;
@@ -53,7 +57,7 @@
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-.projects .arrow .fa-chevron-right {
+.projects .arrow {
   padding-left: 10px;
   display: inline-block;
   vertical-align: center;
