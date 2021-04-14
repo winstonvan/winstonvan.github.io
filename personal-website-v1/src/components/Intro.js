@@ -8,8 +8,8 @@ function Intro() {
       <span className="intro__title">Hello!</span>
 
       <span className="intro__content">
-        I'm <span className="name">Winston Van</span>, a web developer and UX
-        enthusiast focused on creating clean and beautiful interfaces.
+        I'm <span className="name">Winston Van</span>, a software developer and
+        UX enthusiast focused on creating clean and beautiful interfaces.
       </span>
 
       <span className="intro__contact">
