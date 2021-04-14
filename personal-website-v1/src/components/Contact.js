@@ -11,7 +11,7 @@ function Contact() {
         <FadeInSection>
           <div className="item">
             <div className="left">
-              <i class="fab fa-github fa-2x" />
+              <i class="far fa-envelope fa-2x" />
             </div>
             <div className="right">
               <i class="fas fa-angle-right fa-2x" />
@@ -43,7 +43,7 @@ function Contact() {
           </div>
           <div className="item">
             <div className="left">
-              <i class="far fa-envelope fa-2x" />
+              <i class="fab fa-github fa-2x" />
             </div>
             <div className="right">
               <i class="fas fa-angle-right fa-2x" />

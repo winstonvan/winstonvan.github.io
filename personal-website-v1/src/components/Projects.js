@@ -99,7 +99,7 @@ function Projects() {
             </div>
             <div className="project__name">
               <a
-                href="https://lit-shelf-68563.herokuapp.com/"
+                href="https://winstonvan-chat.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
               >
