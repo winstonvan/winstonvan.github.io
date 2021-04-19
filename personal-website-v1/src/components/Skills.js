@@ -20,6 +20,7 @@ function Skills() {
               <li className="item">PHP</li>
             </ul>
           </div>
+
           <div className="skills__category">
             <div className="skills__header">Frameworks</div>
             <ul className="items">
@@ -29,6 +30,7 @@ function Skills() {
               <li className="item">Wordpress</li>
             </ul>
           </div>
+
           <div className="skills__category">
             <div className="skills__header">Tools</div>
             <ul className="items">
@@ -38,6 +40,7 @@ function Skills() {
               <li className="item">Chrome DevTools</li>
             </ul>
           </div>
+
           <div className="skills__category">
             <div className="skills__header">Design</div>
             <ul className="items">

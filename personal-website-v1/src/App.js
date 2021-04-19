@@ -1,8 +1,9 @@
 import "./App.css";
 import React, { Suspense } from "react";
+import FadeIn from "./Scripts/FadeIn";
 
 // lazy loading components
-import Sidebar from "./components/Sidebar";
+const Sidebar = React.lazy(() => import("./components/Sidebar"));
 const Intro = React.lazy(() => import("./components/Intro"));
 const Experience = React.lazy(() => import("./components/Experience"));
 const Projects = React.lazy(() => import("./components/Projects"));
@@ -14,63 +15,45 @@ const Contact = React.lazy(() => import("./components/Contact"));
 function App() {
   return (
     <div className="App">
-      <Sidebar />
+      <Suspense fallback={<div></div>}>
+        <Sidebar />
+      </Suspense>
 
-      <FadeInSection>
+      <FadeIn>
         <Suspense fallback={<div></div>}>
           <Intro />
         </Suspense>
-      </FadeInSection>
+      </FadeIn>
 
-      <FadeInSection>
+      <FadeIn>
         <Suspense fallback={<div></div>}>
           <Skills />
         </Suspense>
-      </FadeInSection>
+      </FadeIn>
 
-      <FadeInSection>
+      <FadeIn>
         <Suspense fallback={<div></div>}>
           <Experience />
         </Suspense>
-      </FadeInSection>
+      </FadeIn>
 
-      <FadeInSection>
+      <FadeIn>
         <Suspense fallback={<div></div>}>
           <Education />
         </Suspense>
-      </FadeInSection>
+      </FadeIn>
 
-      <FadeInSection>
+      <FadeIn>
         <Suspense fallback={<div></div>}>
           <Projects />
         </Suspense>
-      </FadeInSection>
+      </FadeIn>
 
-      <FadeInSection>
+      <FadeIn>
         <Suspense fallback={<div></div>}>
           <Contact />
         </Suspense>
-      </FadeInSection>
-    </div>
-  );
-}
-
-// fade in transition
-function FadeInSection(props) {
-  const [isVisible, setVisible] = React.useState(false);
-  const domRef = React.useRef();
-  React.useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => setVisible(entry.isIntersecting));
-    });
-    observer.observe(domRef.current);
-  }, []);
-  return (
-    <div
-      className={`fade-in-section ${isVisible ? "is-visible" : ""}`}
-      ref={domRef}
-    >
-      {props.children}
+      </FadeIn>
     </div>
   );
 }
