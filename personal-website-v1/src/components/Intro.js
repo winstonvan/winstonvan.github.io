@@ -6,12 +6,10 @@ function Intro() {
   return (
     <section className="intro">
       <span className="intro__title">Hello!</span>
-
       <span className="intro__content">
         I'm <span className="name">Winston Van</span>, a software developer and
         UX enthusiast focused on creating clean and beautiful interfaces.
       </span>
-
       <span className="intro__contact">
         <span className="contact">
           Get in touch with me:{" "}
@@ -19,7 +17,6 @@ function Intro() {
             wvan@laurentian.com
           </a>
         </span>
-
         <span className="socials">
           <span className="social">
             <a

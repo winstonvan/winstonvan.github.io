@@ -1,12 +1,18 @@
 import React from "react";
+import Experience from "../data/experienceItem";
 import "../styles/Experience.css";
-import Experience from "./experienceItem";
 
 function Experiences() {
   return (
     <section className="experience">
       <div className="header">EXPERIENCES</div>
       <div className="content">
+        <Experience
+          company="Freelancer"
+          title="Web Developer"
+          link
+          year="September 2019 - Present"
+        />
         <Experience
           company="ClaimSecure"
           title="Web Developer"

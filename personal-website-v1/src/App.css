@@ -112,7 +112,7 @@ section {
 
 @media screen and (max-width: 480px) {
   .content {
-    padding-left: 30px;
+    padding-left: 0px;
   }
 }
 

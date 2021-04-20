@@ -1,61 +1,35 @@
 import "./App.css";
-import React, { Suspense } from "react";
-import FadeIn from "./Scripts/FadeIn";
-
-// lazy loading components
-const Sidebar = React.lazy(() => import("./components/Sidebar"));
-const Intro = React.lazy(() => import("./components/Intro"));
-const Experiences = React.lazy(() => import("./components/Experiences"));
-const Projects = React.lazy(() => import("./components/Projects"));
-const Education = React.lazy(() => import("./components/Education"));
-const Skills = React.lazy(() => import("./components/Skills"));
-const Contact = React.lazy(() => import("./components/Contact"));
+import FadeIn from "./scripts/FadeIn";
+import React from "react";
+import Sidebar from "./components/Sidebar";
+import Intro from "./components/Intro";
+import Experiences from "./components/Experiences";
+import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 // render components
 function App() {
-  return (
-    <div className="App">
-      <Suspense fallback={<div></div>}>
+  const components = [
+    <Intro />,
+    <Skills />,
+    <Experiences />,
+    <Education />,
+    <Projects />,
+    <Contact />,
+  ];
+
+  const renderComponents = components.map(function (item) {
+    return (
+      <div>
         <Sidebar />
-      </Suspense>
+        <FadeIn> {item} </FadeIn>
+      </div>
+    );
+  });
 
-      <FadeIn>
-        <Suspense fallback={<div></div>}>
-          <Intro />
-        </Suspense>
-      </FadeIn>
-
-      <FadeIn>
-        <Suspense fallback={<div></div>}>
-          <Skills />
-        </Suspense>
-      </FadeIn>
-
-      <FadeIn>
-        <Suspense fallback={<div></div>}>
-          <Experiences />
-        </Suspense>
-      </FadeIn>
-
-      <FadeIn>
-        <Suspense fallback={<div></div>}>
-          <Education />
-        </Suspense>
-      </FadeIn>
-
-      <FadeIn>
-        <Suspense fallback={<div></div>}>
-          <Projects />
-        </Suspense>
-      </FadeIn>
-
-      <FadeIn>
-        <Suspense fallback={<div></div>}>
-          <Contact />
-        </Suspense>
-      </FadeIn>
-    </div>
-  );
+  return <div className="App">{renderComponents}</div>;
 }
 
 export default App;

@@ -1,5 +1,4 @@
 .contact {
-  margin-top: -100px;
   margin-bottom: 100px;
 }
 
@@ -9,7 +8,7 @@
 
 .contact .content {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .contact .item {

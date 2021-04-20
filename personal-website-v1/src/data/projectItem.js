@@ -1,5 +1,5 @@
 import React from "react";
-import FadeIn from "../Scripts/FadeIn";
+import FadeIn from "../scripts/FadeIn";
 import "../styles/Project.css";
 import "../styles/fontawesome/css/all.css";
 

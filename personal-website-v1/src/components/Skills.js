@@ -5,7 +5,6 @@ function Skills() {
   return (
     <section className="skills">
       <div className="header">SKILLS</div>
-
       <div className="content">
         <div className="skill">
           <div className="skills__category">
