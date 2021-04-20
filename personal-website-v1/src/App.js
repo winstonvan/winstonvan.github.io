@@ -5,7 +5,7 @@ import FadeIn from "./Scripts/FadeIn";
 // lazy loading components
 const Sidebar = React.lazy(() => import("./components/Sidebar"));
 const Intro = React.lazy(() => import("./components/Intro"));
-const Experience = React.lazy(() => import("./components/Experience"));
+const Experiences = React.lazy(() => import("./components/Experiences"));
 const Projects = React.lazy(() => import("./components/Projects"));
 const Education = React.lazy(() => import("./components/Education"));
 const Skills = React.lazy(() => import("./components/Skills"));
@@ -33,7 +33,7 @@ function App() {
 
       <FadeIn>
         <Suspense fallback={<div></div>}>
-          <Experience />
+          <Experiences />
         </Suspense>
       </FadeIn>
 

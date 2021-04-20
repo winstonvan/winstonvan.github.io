@@ -3,20 +3,15 @@ import FadeIn from "../Scripts/FadeIn";
 import "../styles/Project.css";
 import "../styles/fontawesome/css/all.css";
 
-class Project extends React.Component {
+class projectItem extends React.Component {
   render() {
-    var languages = this.props.languages.trim().split(",", 10);
-    var innerHTML = "";
-    for (var i = 0; i < languages.length; i++) {
-      innerHTML +=
-        "<div className='project__languages'>" +
-        this.props.languages.split(",", 10)[i] +
-        "</div>";
-    }
+    // split string into array
+    var languages = this.props.languages.split(",", 10);
 
-    console.log(innerHTML);
-
-    document.getElementsByClassName("test").innerHTML = innerHTML;
+    // map array
+    var languagesList = languages.map(function (item) {
+      return <div className="project__languages">{item}</div>;
+    });
 
     return (
       <div className="project">
@@ -43,7 +38,7 @@ class Project extends React.Component {
                 View source
               </a>
             </div>
-            <div className="test"></div>
+            <div className="languages">{languagesList}</div>
           </FadeIn>
         </div>
       </div>
@@ -51,4 +46,4 @@ class Project extends React.Component {
   }
 }
 
-export default Project;
+export default projectItem;

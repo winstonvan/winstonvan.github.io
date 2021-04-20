@@ -1,11 +1,11 @@
 import React from "react";
-import Project from "./Project";
+import Project from "./projectItem";
 
 function Projects() {
   return (
     <div>
       <section className="projects">
-        <div className="header">PROJECT</div>
+        <div className="header">PROJECTS</div>
         <div className="content">
           <Project
             name="winstonvan.github.io"
@@ -25,8 +25,8 @@ function Projects() {
               youths."
             demo="https://github.com/winstonvan/Inform"
             src="https://github.com/winstonvan/Inform"
-            img=""
-            languages=""
+            img="inform/mockup.png"
+            languages="Android,Java,Firebase"
           />
           <Project
             name="Web Chat Application"
@@ -35,8 +35,8 @@ function Projects() {
               themed with MaterialUI."
             demo="https://github.com/winstonvan/messenger-clone"
             src="https://github.com/winstonvan/messenger-clone"
-            img=""
-            languages=""
+            img="chat-app/mockup.png"
+            languages="React,Firebase,MaterialUI,CSS,HTML"
           />
           <Project
             name="Studium"
@@ -47,7 +47,17 @@ function Projects() {
             demo="https://github.com/winstonvan/Studium"
             src="https://github.com/winstonvan/Studium"
             img=""
-            languages=""
+            languages="Java,Android,PHP,SQL"
+          />
+          <Project
+            name="Medical Expert System"
+            desc="This expert system was developed for a fourth year expert systems
+            class. A forward-chaining inference engine was used to infer
+            data from a knowledge base."
+            demo="https://github.com/winstonvan/ExpertProject1"
+            src="https://github.com/winstonvan/ExpertProject1"
+            img=""
+            languages="C#"
           />
           <Project
             name="NX Inc."
@@ -58,7 +68,7 @@ function Projects() {
             demo="https://nxinc.ca/"
             src=""
             img=""
-            languages=""
+            languages="Wordpress,PHP,CSS"
           />
           <Project
             name="The DIY Chief"
@@ -67,17 +77,7 @@ function Projects() {
             demo="https://thediychief.com/"
             src=""
             img=""
-            languages=""
-          />
-          <Project
-            name="Medical Expert System"
-            desc="This expert system was developed for a fourth year expert systems
-              class. A forward-chaining inference engine was used to infer
-              data from a knowledge base."
-            demo="https://github.com/winstonvan/ExpertProject1"
-            src="https://github.com/winstonvan/ExpertProject1"
-            img=""
-            languages=""
+            languages="Wordpress,PHP,CSS"
           />
         </div>
       </section>
