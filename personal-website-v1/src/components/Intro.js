@@ -13,8 +13,8 @@ function Intro() {
       <span className="intro__contact">
         <span className="contact">
           Get in touch with me:{" "}
-          <a href="mailto:wvan@laurentian.com" className="link">
-            wvan@laurentian.com
+          <a href="mailto:winstonvan.wv@gmail.com" className="link">
+             winstonvan.wv@gmail.com
           </a>
         </span>
         <span className="socials">
@@ -40,7 +40,7 @@ function Intro() {
 
           <span className="social">
             <a
-              href="mailto:wvan@laurentian.com"
+              href="mailto:winstonvan.wv@gmail.com"
               target="_blank"
               rel="noreferrer"
             >

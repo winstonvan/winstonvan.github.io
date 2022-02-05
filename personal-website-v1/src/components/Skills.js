@@ -10,20 +10,21 @@ function Skills() {
           <div className="skills__category">
             <div className="skills__header">Languages</div>
             <ul className="items">
-              <li className="item">Java</li>
-              <li className="item">C++</li>
               <li className="item">C#</li>
               <li className="item">Javascript</li>
               <li className="item">CSS</li>
               <li className="item">HTML</li>
               <li className="item">PHP</li>
+              <li className="item">Java</li>
+              <li className="item">C++</li>
             </ul>
           </div>
 
           <div className="skills__category">
             <div className="skills__header">Frameworks</div>
             <ul className="items">
-              <li className="item">React</li>
+              <li className="item">ReactJS</li>
+              <li className="item">AngularJS</li>
               <li className="item">SQL</li>
               <li className="item">Firebase</li>
               <li className="item">Wordpress</li>

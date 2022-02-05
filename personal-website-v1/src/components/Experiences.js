@@ -7,12 +7,18 @@ function Experiences() {
     <section className="experience">
       <div className="header">EXPERIENCES</div>
       <div className="content">
-        <Experience
-          company="Freelancer"
-          title="Web Developer"
+      <Experience
+          company="Centric Mining Systems"
+          title="Software Developer"
           link
-          year="September 2019 - Present"
-        />
+          year="July 2021 - Present "
+        />        
+        <Experience
+        company="Freelancer"
+        title="Web Developer"
+        link
+        year="September 2019 - Present"
+      />
         <Experience
           company="ClaimSecure"
           title="Web Developer"
