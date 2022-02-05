@@ -33,7 +33,7 @@ function Projects() {
             desc="A responsive and mobile-friendly chat application built using
               React.js and Firebase. Uses BrowserRouter for page navigation and
               themed with MaterialUI."
-            demo="https://github.com/winstonvan/messenger-clone"
+            demo="https://winstonvan-chat.herokuapp.com/"
             src="https://github.com/winstonvan/messenger-clone"
             img="chat-app/mockup.png"
             languages="React,Firebase,MaterialUI,CSS,HTML"
